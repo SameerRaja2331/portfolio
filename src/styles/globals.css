@@ -22,3 +22,27 @@ body {
   font-family: "burtons";
   src: url(../../public/Burtons.otf);
 }
+
+.card {
+  position: relative;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border-color: black;
+  transform: translate(0, -5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+.bard {
+  position: relative;
+  /* border: 0px transparent; */
+  transition: all 0.5s ease;
+}
+
+.bard:hover {
+  border-color: whitesmoke;
+  transform: translate(-10px, -5px);
+  box-shadow: 0 5px 10px rgba(119, 240, 58, 0.9);
+}

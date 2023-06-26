@@ -35,14 +35,14 @@ export default function Home() {
       <Head>
         <title>Sameer Raja Portfolio</title>
       </Head>
-      <main className=" bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-950">
+      <main className=" bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-950 bg-gradient-page">
         <section className=" min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl">Developed by</h1>
+            <h1 className="text-2xl">#Never Settle</h1>
             <ul className="flex items-center">
               <li>
                 <button
-                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 card"
                   onClick={openResume}
                 >
                   Resume
@@ -50,7 +50,7 @@ export default function Home() {
               </li>
               <li>
                 <button
-                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                  className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 card"
                   onClick={openCv}
                 >
                   CV
@@ -73,13 +73,16 @@ export default function Home() {
             </p>
           </div>
           <div className=" text-5xl flex justify-center gap-14 py-3">
-            <a href="https://www.linkedin.com/in/sameerraja31/">
+            <a
+              className="bard"
+              href="https://www.linkedin.com/in/sameerraja31/"
+            >
               <AiFillLinkedin />
             </a>
-            <a href={`mailto:${"rajasameer.bhanu@gmail.com"}`}>
+            <a className="bard" href={`mailto:${"rajasameer.bhanu@gmail.com"}`}>
               <AiFillMail />
             </a>
-            <a href="https://github.com/SameerRaja2331">
+            <a className="bard" href="https://github.com/SameerRaja2331">
               <AiFillGithub />
             </a>
           </div>
@@ -94,7 +97,7 @@ export default function Home() {
             <h2 className="text-2xl py-1">
               Anuta Networks (Software Developer)
             </h2>
-            <ul className="list-disc pl-6 text-black">
+            <ul className="list-disc pl-6 text-black pb-5">
               <li className="flex items-start">
                 <FaAnchor text-2xl className="text-teal-800 mt-1 mr-2" />
                 <p>
@@ -105,13 +108,13 @@ export default function Home() {
               </li>
               <li className="flex items-start">
                 <FaAnchor text-2xl className="text-teal-800 mt-1 mr-2" />
-                Redesigned websites for improved navigation and visual appeal.
+                Redesigned websites for improved navigation & visual appeal.
               </li>
               <li className="flex items-start">
                 <FaAnchor text-2xl className="text-teal-800 mt-1 mr-2" />
                 <p>
                   Skilled in <span className="text-teal-800">React.Js</span> and
-                  <span className="text-teal-800">Node.Js</span> as worked on
+                  <span className="text-teal-800"> Node.Js</span> as worked on
                   frontend development.
                 </p>
               </li>
@@ -120,7 +123,7 @@ export default function Home() {
                 <p>
                   Managed real-time machine learning projects and utilized
                   <span className="text-teal-800"> Jenkins</span> for automated
-                  build and deployment.
+                  build & deployment.
                 </p>
               </li>
               <li className="flex items-start">
@@ -132,10 +135,10 @@ export default function Home() {
               </li>
             </ul>
             <h2 className="text-2xl py-1">
-              Metacognition (Software Intern Developer)
+              Metacognition (Software Dev Intern)
             </h2>
 
-            <ul className="list-disc pl-6 text-gray-800">
+            <ul className="list-disc pl-6 text-black pb-5">
               <li className="flex items-start">
                 <FaAnchor text-2xl className="text-teal-800 mt-1 mr-2" />
                 <p>
@@ -182,7 +185,7 @@ export default function Home() {
             <h2 className="text-2xl py-1">
               KLEF (Peer Mentor & Lab Developer)
             </h2>
-            <ul className="list-disc pl-6 text-gray-800">
+            <ul className="list-disc pl-6 text-black pb-5">
               <li className="flex items-start">
                 <FaAnchor className="text-teal-800 mt-1 mr-2" />
                 <p>
@@ -232,7 +235,7 @@ export default function Home() {
             </ul>
 
             <h2 className="text-2xl py-1">KLEF (Technical lead)</h2>
-            <ul className="list-disc pl-6 text-gray-800">
+            <ul className="list-disc pl-6 text-black pb-10">
               <li className="flex items-start">
                 <FaAnchor className="text-teal-800 mt-1 mr-2" />
                 <p>
@@ -279,16 +282,18 @@ export default function Home() {
               </li>
               <li className="flex items-start">
                 <FaAnchor className="text-teal-800 mt-1 mr-2" />
-                Managed <span className="text-teal-800">MongoDB</span> databases
-                for various projects.
+                <p>
+                  Managed <span className="text-teal-800"> MongoDB </span>
+                  databases for various projects.
+                </p>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-3xl py-3">Core Projects</h3>
+            <h3 className="text-3xl">Core Projects</h3>
             <div className="lg:flex gap-10">
-              <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+              <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 card">
                 <Image src={design} alt="" width={100} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2  ">
                   Attendance Management System
@@ -299,7 +304,7 @@ export default function Home() {
                   recognize and match student faces, automating attendance
                   marking.
                 </p>
-                <h4 className="py-4 text-teal-600">Tech Stack Used</h4>
+                <h4 className="py-4 text-lg text-red-600">Tech Stack Used</h4>
                 <p className="text-gray-800 py-1">OpenCV</p>
                 <p className="text-gray-800 py-1">Python</p>
                 <p className="text-gray-800 py-1">ML Models</p>
@@ -307,7 +312,8 @@ export default function Home() {
                 <p className="text-gray-800 py-1">Next.Js</p>
                 <p className="text-gray-800 py-1">HTML/CSS</p>
               </div>
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+
+              <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 card">
                 <Image src={consulting} alt="" width={100} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2 ">
                   Heart Disease Prediction using Neural Networks
@@ -317,7 +323,7 @@ export default function Home() {
                   data preprocessing, feature engineering, and feature selection
                   to optimize model performance and Prediction of heart disease.
                 </p>
-                <h4 className="py-4 text-teal-600">Tech Stack Used</h4>
+                <h4 className="py-4 text-lg text-red-600">Tech Stack Used</h4>
                 <p className="text-gray-800 py-1">TensorFlow</p>
                 <p className="text-gray-800 py-1">Keras</p>
                 <p className="text-gray-800 py-1">ML models</p>
@@ -325,7 +331,8 @@ export default function Home() {
                 <p className="text-gray-800 py-1">Feature Engineering</p>
                 <p className="text-gray-800 py-1">Git</p>
               </div>
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+
+              <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 card">
                 <Image src={code} alt="" width={100} height={100} />
                 <h3 className="text-lg font-medium pt-8 pb-2 ">
                   React.Js To-do Tasks Application
@@ -336,7 +343,7 @@ export default function Home() {
                   Integrated Google Firebase for secure data storage and
                   real-time updates.
                 </p>
-                <h4 className="py-4 text-teal-600">Tech Stack Used</h4>
+                <h4 className="py-4 text-lg text-red-600">Tech Stack Used</h4>
                 <p className="text-gray-800 py-1">Firebase</p>
                 <p className="text-gray-800 py-1">JavaScript</p>
                 <p className="text-gray-800 py-1">MongoDB</p>
@@ -400,7 +407,7 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web5}
+                src={web6}
               />
             </div>
             <div className="basis-1/3 flex-1">
@@ -410,7 +417,7 @@ export default function Home() {
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web6}
+                src={web5}
               />
             </div>
           </div>
