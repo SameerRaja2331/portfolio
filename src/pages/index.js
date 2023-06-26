@@ -109,21 +109,26 @@ export default function Home() {
               </li>
               <li className="flex items-start">
                 <FaAnchor text-2xl className="text-teal-800 mt-1 mr-2" />
-                Skilled in <span className="text-teal-800">
-                  ReactJS{" "}
-                </span>and <span className="text-teal-800">NodeJS </span>for
-                frontend development.
+                <p>
+                  Skilled in <span className="text-teal-800">React.Js</span> and
+                  <span className="text-teal-800">Node.Js</span> as worked on
+                  frontend development.
+                </p>
               </li>
               <li className="flex items-start">
                 <FaAnchor text-2xl className="text-teal-800 mt-1 mr-2" />
-                Managed real-time machine learning projects and utilized{" "}
-                <span className="text-teal-800">Jenkins </span>
-                for automated build and deployment.
+                <p>
+                  Managed real-time machine learning projects and utilized
+                  <span className="text-teal-800"> Jenkins</span> for automated
+                  build and deployment.
+                </p>
               </li>
               <li className="flex items-start">
                 <FaAnchor text-2xl className="text-teal-800 mt-1 mr-2" />
-                Proficient in <span className="text-teal-800">git</span>,
-                debugging, and implementing timely fixes.
+                <p>
+                  Proficient in <span className="text-teal-800">git</span>,
+                  debugging, and implementing timely fixes.
+                </p>
               </li>
             </ul>
             <h2 className="text-2xl py-1">
@@ -230,16 +235,20 @@ export default function Home() {
             <ul className="list-disc pl-6 text-gray-800">
               <li className="flex items-start">
                 <FaAnchor className="text-teal-800 mt-1 mr-2" />
-                Engaged in the{" "}
-                <span className="text-teal-800">Kognitiv Club</span>, gaining
-                hands-on experience in{" "}
-                <span className="text-teal-800">machine learning</span> and{" "}
-                <span className="text-teal-800">deep learning</span>.
+                <p>
+                  Engaged in the{" "}
+                  <span className="text-teal-800">Kognitiv Club</span>, gaining
+                  hands-on experience in{" "}
+                  <span className="text-teal-800">machine learning</span> and{" "}
+                  <span className="text-teal-800">deep learning</span>.
+                </p>
               </li>
               <li className="flex items-start">
                 <FaAnchor className="text-teal-800 mt-1 mr-2" />
-                Completed real-world projects, enhancing practical skills and
-                understanding of <span className="text-teal-800">AI</span>.
+                <p>
+                  Completed real-world projects, enhancing practical skills and
+                  understanding of <span className="text-teal-800">AI</span>.
+                </p>
               </li>
               <li className="flex items-start">
                 <FaAnchor className="text-teal-800 mt-1 mr-2" />
@@ -247,12 +256,14 @@ export default function Home() {
               </li>
               <li className="flex items-start">
                 <FaAnchor className="text-teal-800 mt-1 mr-2" />
-                Developed proficiency in{" "}
-                <span className="text-teal-800">Python</span>,{" "}
-                <span className="text-teal-800">JavaScript</span>,{" "}
-                <span className="text-teal-800">Machine Learning</span>,{" "}
-                <span className="text-teal-800">HTML</span>, and{" "}
-                <span className="text-teal-800">CSS</span>.
+                <p>
+                  Developed proficiency in{" "}
+                  <span className="text-teal-800">Python</span>,{" "}
+                  <span className="text-teal-800">JavaScript</span>,{" "}
+                  <span className="text-teal-800">Machine Learning</span>,{" "}
+                  <span className="text-teal-800">HTML</span>, and{" "}
+                  <span className="text-teal-800">CSS</span>.
+                </p>
               </li>
               <li className="flex items-start">
                 <FaAnchor className="text-teal-800 mt-1 mr-2" />
@@ -260,9 +271,11 @@ export default function Home() {
               </li>
               <li className="flex items-start">
                 <FaAnchor className="text-teal-800 mt-1 mr-2" />
-                Created assessments and user polls to evaluate course
-                effectiveness, adapting content and delivery to meet student
-                learning objectives.
+                <p>
+                  Created assessments and user polls to evaluate course
+                  effectiveness, adapting content and delivery to meet student
+                  learning objectives.
+                </p>
               </li>
               <li className="flex items-start">
                 <FaAnchor className="text-teal-800 mt-1 mr-2" />
