@@ -160,7 +160,7 @@ export default function Home() {
                   <span className="text-xl">Other:</span>{" "}
                   <span className="text-blue-900 text-xl">
                     Java/J2EE, OOPS concept, Proto Buffers, Servlets, JSP, JDBC,
-                    XML, RESTful API's, JSON, Bitbucket, Spring Boot, Postman{" "}
+                    XML, RESTful APIs, JSON, Bitbucket, Spring Boot, Postman{" "}
                   </span>
                 </p>
               </li>
