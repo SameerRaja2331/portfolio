@@ -17,6 +17,22 @@ import web6 from "../../public/web6.jpg";
 import web7 from "../../public/web7.jpg";
 import web8 from "../../public/web8.jpg";
 
+// Define variables for text content
+const pageTitle = "Sameer Raja Portfolio";
+const role = "Software Engineer and Programmer";
+const name = "Sameer Raja";
+const quote = "#Never Settle";
+
+const summary = ` Talented Software Developer equipped with great coding,
+debugging and project management abilities. Accomplishes
+project goals consistently with elegant, scalable code.
+Works great with team members under Agile and Scrum frameworks.
+`;
+
+const linkedin = "https://www.linkedin.com/in/sameerraja31/";
+const github = "https://github.com/SameerRaja2331";
+const email = `mailto:${"rajasameer.bhanu@gmail.com"}`;
+
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -34,12 +50,12 @@ export default function Home() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
-        <title>Sameer Raja Portfolio</title>
+        <title>{pageTitle}</title>
       </Head>
       <main className=" bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-950 bg-gradient-page">
         <section className=" min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-3xl">#Never Settle</h1>
+            <h1 className="text-3xl">{quote}</h1>
             <ul className="flex items-center">
               <li>
                 <button
@@ -61,29 +77,19 @@ export default function Home() {
           </nav>
           <div className=" text-center p-10">
             <h2 className=" text-5xl py-2 text-teal-600 font-medium md:text-6xl">
-              Sameer Raja
+              {name}
             </h2>
-            <h3 className="text-2xl py-2 md:text-3xl">
-              Software Engineer and Programmer
-            </h3>
-            <p className="text-md py-2 leading-6 text-gray-800">
-              Talented Software Developer equipped with great coding, debugging
-              and project management abilities. Accomplishes project goals
-              consistently with elegant, scalable code. Works great with team
-              members under Agile and Scrum frameworks.
-            </p>
+            <h3 className="text-2xl py-2 md:text-3xl">{role}</h3>
+            <p className="text-md py-2 leading-6 text-gray-800">{summary}</p>
           </div>
           <div className=" text-5xl flex justify-center gap-14 py-3">
-            <a
-              className="bard"
-              href="https://www.linkedin.com/in/sameerraja31/"
-            >
+            <a className="bard" href={linkedin}>
               <AiFillLinkedin />
             </a>
-            <a className="bard" href={`mailto:${"rajasameer.bhanu@gmail.com"}`}>
+            <a className="bard" href={email}>
               <AiFillMail />
             </a>
-            <a className="bard" href="https://github.com/SameerRaja2331">
+            <a className="bard" href={github}>
               <AiFillGithub />
             </a>
           </div>
@@ -142,8 +148,8 @@ export default function Home() {
                 <p>
                   <span className="text-xl">IDE Tools:</span>{" "}
                   <span className="text-blue-900 text-xl">
-                    PyCharm, Jupyter Notebook, Eclipse, Microsoft Visual Studio
-                    Code, IntelliJ{" "}
+                    PyCharm, Eclipse, Microsoft Visual Studio Code, IntelliJ
+                    IDEA{" "}
                   </span>
                 </p>
               </li>
@@ -238,9 +244,7 @@ export default function Home() {
                 </p>
               </li>
             </ul>
-            <h2 className="text-2xl py-1">
-              Metacognition (Software Engineer Intern)
-            </h2>
+            <h2 className="text-2xl py-1">Metacognition (Software Engineer)</h2>
 
             <ul className="list-disc pl-6 text-black pb-5">
               <li>
