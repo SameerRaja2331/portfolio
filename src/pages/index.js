@@ -36,17 +36,18 @@ const email = `mailto:${"rajasameer.bhanu@gmail.com"}`;
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
-  const openResume = () => {
-    window.open(
-      "/Resume.pdf",
-      "_blank",
-      "width=800,height=700,top=100,left=100"
-    );
-  };
+  // const openResume = () => {
+  //   window.open(
+  //     "/Resume.pdf",
+  //     "_blank",
+  //     "width=800,height=700,top=100,left=100"
+  //   );
+  // };
 
-  const openCv = () => {
-    window.open("/CV.pdf", "_blank", "width=800,height=700,top=100,left=100");
-  };
+  // const openCv = () => {
+  //   window.open("/CV.pdf", "_blank", "width=800,height=700,top=100,left=100");
+  // };
+
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -56,7 +57,7 @@ export default function Home() {
         <section className=" min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className="text-3xl">{quote}</h1>
-            <ul className="flex items-center">
+            {/* <ul className="flex items-center">
               <li>
                 <button
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 card"
@@ -73,7 +74,7 @@ export default function Home() {
                   CV
                 </button>
               </li>
-            </ul>
+            </ul> */}
           </nav>
           <div className=" text-center p-10">
             <h2 className=" text-5xl py-2 text-teal-600 font-medium md:text-6xl">
@@ -196,7 +197,7 @@ export default function Home() {
                 <p>
                   Employed{" "}
                   <span className="text-teal-800">
-                    React, Flask, Redux toolkit (for efficient state
+                    React framework, Redux toolkit (for efficient state
                     management), Node, and Java Spring Framework{" "}
                   </span>{" "}
                   to deliver seamless user experiences with dynamic UIs and
